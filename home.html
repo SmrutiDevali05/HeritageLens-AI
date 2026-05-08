@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>HeritageLens AI</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar px-lg-5 px-3 py-3">
+
+    <div class="container-fluid">
+
+      <a class="navbar-brand fw-bold logo-text" href="#">
+        <i class="fa-solid fa-scroll me-2"></i>
+        HeritageLens AI
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#upload">Upload</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#archives">Archives</a>
+          </li>
+
+          <li class="nav-item">
+
+            <button class="btn custom-btn px-4">
+              Explore Now
+            </button>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <!-- HERO SECTION -->
+
+  <section class="hero-section" id="home">
+
+    <div class="overlay"></div>
+
+    <div class="container hero-content">
+
+      <div class="row align-items-center min-vh-100">
+
+        <div class="col-lg-6 text-white">
+
+          <div class="badge custom-badge mb-4">
+            AI Powered Cultural Preservation
+          </div>
+
+          <h1 class="hero-title mb-4">
+            Reviving <span>Lost Manuscripts</span>
+            Through Artificial Intelligence
+          </h1>
+
+          <p class="hero-text mb-4">
+
+            HeritageLens AI transforms ancient manuscripts into searchable,
+            translated, and intelligent digital archives using OCR,
+            AI summarization, metadata generation, and semantic search.
+
+          </p>
+
+          <div class="d-flex flex-wrap gap-3">
+
+            <button class="btn hero-btn-primary px-5 py-3">
+              Upload Manuscript
+            </button>
+
+            <button class="btn hero-btn-secondary px-5 py-3">
+              Watch Demo
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-6 mt-5 mt-lg-0">
+
+          <div class="glass-card p-4">
+
+            <img
+              src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=1200&auto=format&fit=crop"
+              class="img-fluid rounded-4"
+              alt="Manuscript"
+            >
+
+            <div class="mt-4">
+
+              <div class="d-flex justify-content-between mb-3">
+
+                <span class="text-light">OCR Accuracy</span>
+
+                <span class="text-warning fw-bold">98%</span>
+
+              </div>
+
+              <div class="progress custom-progress">
+
+                <div class="progress-bar bg-warning" style="width:98%"></div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FEATURES -->
+
+  <section class="features-section py-5" id="features">
+
+    <div class="container py-5">
+
+      <div class="text-center mb-5">
+
+        <h2 class="section-title">
+          Core Features
+        </h2>
+
+        <p class="section-subtitle">
+          Powerful AI tools built for preserving cultural heritage.
+        </p>
+
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="feature-card h-100">
+
+            <div class="feature-icon">
+              <i class="fa-solid fa-camera"></i>
+            </div>
+
+            <h4>Smart OCR</h4>
+
+            <p>
+              Extract handwritten text from ancient manuscripts using AI.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="feature-card h-100">
+
+            <div class="feature-icon">
+              <i class="fa-solid fa-language"></i>
+            </div>
+
+            <h4>Translation</h4>
+
+            <p>
+              Translate historical languages into modern readable text.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="feature-card h-100">
+
+            <div class="feature-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <h4>AI Summary</h4>
+
+            <p>
+              Generate contextual summaries and historical insights.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="feature-card h-100">
+
+            <div class="feature-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <h4>Semantic Search</h4>
+
+            <p>
+              Find manuscripts using intelligent topic-based search.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- UPLOAD SECTION -->
+
+  <section class="upload-section py-5" id="upload">
+
+    <div class="container py-5">
+
+      <div class="row align-items-center">
+
+        <div class="col-lg-6 mb-5 mb-lg-0">
+
+          <h2 class="section-title mb-4">
+            Upload Ancient Manuscripts
+          </h2>
+
+          <p class="section-subtitle mb-4">
+
+            Upload images or PDFs of manuscripts and let AI extract,
+            translate, and summarize the content.
+
+          </p>
+
+          <ul class="upload-list">
+
+            <li>
+              <i class="fa-solid fa-check"></i>
+              Historical OCR
+            </li>
+
+            <li>
+              <i class="fa-solid fa-check"></i>
+              AI Translation
+            </li>
+
+            <li>
+              <i class="fa-solid fa-check"></i>
+              Metadata Extraction
+            </li>
+
+            <li>
+              <i class="fa-solid fa-check"></i>
+              Smart Categorization
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="col-lg-6">
+
+          <div class="upload-box text-center p-5">
+
+            <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+
+            <h3 class="mt-4 text-white">
+              Drag & Drop Files
+            </h3>
+
+            <p class="text-light mt-3">
+              Supported formats: JPG, PNG, PDF
+            </p>
+
+            <input type="file" id="fileUpload" hidden>
+
+            <button
+              class="btn custom-btn mt-4 px-5"
+              onclick="triggerUpload()"
+            >
+              Choose File
+            </button>
+
+            <div id="fileName" class="mt-4 text-warning fw-bold"></div>
+<!-- IMAGE PREVIEW -->
+
+<img
+  id="previewImage"
+  class="img-fluid rounded-4 mt-4 d-none"
+  style="max-height:300px;"
+>
+
+
+<!-- LOADING -->
+
+<div id="loadingBox" class="mt-4 d-none">
+
+  <div class="spinner-border text-warning"></div>
+
+  <p class="text-light mt-3">
+    AI Processing Manuscript...
+  </p>
+
+</div>
+
+
+<!-- AI RESULT -->
+
+<div id="resultCard" class="glass-card p-4 mt-4 d-none">
+
+  <h4 class="text-warning mb-3">
+    AI Generated Summary
+  </h4>
+
+  <p class="text-light">
+
+    This manuscript discusses ancient medicinal
+    healing techniques and herbal remedies
+    practiced in historical South Indian kingdoms.
+
+  </p>
+
+</div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SEARCH SECTION -->
+
+  <section class="search-section py-5" id="archives">
+
+    <div class="container py-5">
+
+      <div class="text-center mb-5">
+
+        <h2 class="section-title">
+          Search Historical Archives
+        </h2>
+
+        <p class="section-subtitle">
+          Discover hidden manuscripts using AI-powered semantic search.
+        </p>
+
+      </div>
+
+
+      <div class="search-box mx-auto mb-5">
+
+        <input
+          type="text"
+          class="form-control search-input"
+          placeholder="Search ancient medicine, temple history, poetry..."
+        >
+
+        <button class="btn search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer-section text-center py-4">
+
+    <p>
+      © 2026 HeritageLens AI | Preserving Culture Through Technology
+    </p>
+
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
